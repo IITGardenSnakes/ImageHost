@@ -111,6 +111,19 @@ ul.b {
   margin-top: 20px;
 }
 
+/*Grid Layout- specific to page 2 for seeing testing images*/
+/*Column*/
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/*Column Images*/
+.column img {
+  margin-top: 12px;
+}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
