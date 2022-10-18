@@ -12,7 +12,7 @@ body {
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
+  background: #BEF752;
 }
 
 .header h1 {
@@ -37,7 +37,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #BEF752;
+  background-color: #ffec6f;
   color: black;
 }
 
