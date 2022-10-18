@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>GardenPi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/screen.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Garden Snakes</h1>
+    </div>
+    <div class="topnav">
+        <a href="index.html">Main Page</a>
+        <a href="tabs/Page2">Plant Test Images</a>
+        <a href="tabs/Page3">Sickness Remedies</a>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+        <div class="card">
+            <h2>Key Tips</h2>
+            <div class="gsimage" style="height:200px" img src="images/gardenPi.jpg">yellow leaves</div>
+            <ul class="b">
+                <li>Keep your system regularly clean and organized to prevent algae and pests from growing.</li>
+                <li>Avoid high water temperatures as this can create a high-risk condition for diseases. Check for signs of plant diseases 1-2 times a week.</li>
+                <li>Provide plenty of oxygen to roots with your air pump to prevent the growth of bad bacteria.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Yellow Leaves</h2>
+            <div class="gsimage" style="height:200px" img src="images/gardenPi.jpg">yellow leaves</div>
+            <p>Yellow leaves tend to be the beginning warning signs of root rot. If root rot is not present check the pH level and change it to the appropriate level. For most plants, a pH level of 5.5-6.5 is ideal. </p>
+        </div>
+        <div class="card">
+            <h2>Root Rot</h2>
+            <div class="gsimage" style="height:200px">root rot</div>
+            <p>You can identify root rot from its dark brown roots (healthy roots are white). To treat this it is important that you clean and sterilize the container. Then rinse and remove any dead or slimy roots and add 3mL of hydrogen peroxide to the plant's container letting it sit for 24 hours. Afterwards drain the water and fill with the proper amount of nutrient solution.</p>
+            <p>Note: It is important that you catch root rot early on for this treatment to work.</p>
+        </div>
+        <div class="card">
+            <h2>Browning Leaves</h2>
+            <div class="gsimage" style="height:200px">browning leaves</div>
+            <p>Brown leaves are a sign that the nutrient solution is too strong or the plants are not getting enough water. It is important to check that the roots are properly reaching the nutrient solutions. If there is browning in the upper leaves then overfeeding is present. Check the pH level, if there are excessive brown leaves then you will have to completely clean your setup.</p>
+        </div>
+        <div class="card">
+            <h2>Spotted Leaves</h2>
+            <div class="gsimage" style="height:200px">spotted leaves</div>
+            <p>Spots on leaves can be caused by multiple issues. Checking for pests or fungus is an important first step, if you see pests or fungus please follow the appropriate section below. Root health is another vital indicator of spotted leaves, if the root of your plants are brown then follow the steps above to cure root rot. If neither of these solutions help, an overall nutrient flush will give the plants a fresh start.</p>
+        </div>
+        <div class="card">
+            <h2>Leaf Curling</h2>
+            <div class="gsimage" style="height:200px">leaf curling</div>
+            <p>There are two types of curled leaves: upward and downward. An upward curl is a sign of excessive sunlight, little can be done to prevent this but keeping the nutrient solution cool and plants shaded will help. An downward curl is a result of overfeeding/too much water to fix this simply reduce the nutrient to water ratio.</p>
+        </div>
+        <div class="card">
+            <h2>Disease Prevention</h2>
+            <div class="gsimage" style="height:200px">plant disease</div>
+            <p>Diseases like Powdery Mildew can be easy to spot before it progresses too far. Powdery mildew is caused by low lighting, bad air circulation and high humidity. To prevent this increase the amount of light received and make sure the air stone is producing the optimal amount of oxygen bubbles. If their is an outbreak a mixture of baking soda (1 tbsp), dormant oil (1 tsp), and liquid soap (1 tsp) sprayed directly onto the plants can be highly effective.</p>
+        </div>
+        <div class="card">
+            <h2>Pest and Fungus Control</h2>
+            <div class="gsimage" style="height:200px">pests</div>
+            <p>Common pests found are aphids, spider mites, and whiteflies.  A mixture of hydrogen peroxide (100mL), water (400mL), and castile soap (1 tsp) sprayed onto your plants will help kill these pests.</p>
+            <p>Spraying water won't kill all pests but it can prevent reproduction.</p>
+        </div>
+    </div>
+    <div class="rightcolumn">
+    <div class="card">
+        <h3>Resources</h3>
+        <ul class="b">
+            <li><a href="https://smallscalegardener.com/common-plant-problems-hydroponics/">Diane Davies article on Common Plant Problems in Hydroponics and how to fix them</a></li>
+            <li><a href="https://smartgardenguide.com/problems-with-hydroponics/">Andrew Courtney article on Fixing Typical Problems in Hydroponics</a></li>
+            <li><a href="https://www.nickgreens.com/post/how-to-prevent-and-identify-plant-diseases-in-hydroponic-growing-systems">Identifying plant diseases by Nick Greens Grow Team</a></li>
+        </ul>
+    </div>
+    <div class="card">
+        <h3>Team</h3>
+        <ul class="b">
+            <li>Daniela Munoz</li>
+            <li>Alexander Schatz</li>
+            <li>Adrian Hamel</li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    <div class="footer">
+        <h2>Thank you Grainger for hosting this competition</h2>
+        <h4>Special Thank you to: Professor Hajek, Chris Schatz, and Kaplan Institute</h4>
+    </div>
+</body>
+</html>
+
