@@ -124,6 +124,50 @@ ul.b {
   margin-top: 12px;
 }
 
+/*Fade in Overlay- specific to page 2 for identifying sick/healthy plants*/
+/*Container*/
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/*image specifications for overlay*/
+.overlay img {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+/*transition*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+/*actual transition to opaque*/
+.container:hover .overlay {
+  opacity: .7;
+}
+
+/*visible text*/
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
