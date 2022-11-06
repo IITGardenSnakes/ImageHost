@@ -192,14 +192,14 @@ ul.b {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #2d2aa9;
+  background: #BEF752;
   cursor: pointer;
 }
 .slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #2d2aa9;
+  background: #BEF752;
   cursor: pointer;
 }
 
