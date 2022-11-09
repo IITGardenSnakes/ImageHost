@@ -20,11 +20,32 @@
     </div>
     <div class="row">
         <div class="leftcolumn">
-        <div class="card">
-            <h2>Your GardenPi Now</h2>
-            <img src="images/Cplant.jpg" alt="Current Plant" class="center">
-            <p>Check out the latest picture from the GardenPi!</p>
+            <div class="card">
+                <h2>Your GardenPi Now</h2>
+                <p>Check out the latest stream from the GardenPi!</p>
+                <div class="webcam">
+                    <video id="video" width="25%" height="25%" autoplay></video>
+                </div>
+                <a href="#!" onClick="start()" id="webcamLink">Start Webcam</a>
+            
             </div>
+            <script>
+                /* Webcam */
+                var start = function () {
+                var video = document.getElementById('video'), vendorUrl = window.URL || window.webkitURL;
+                if (navigator.mediaDevices.getUserMedia) {
+                    navigator.mediaDevices.getUserMedia({ video: true })
+                    .then(function (stream) {
+                            video.srcObject = stream;
+                        }).catch(function (error) {
+                            console.log("Something went wrong!");
+                        });
+                }
+                }
+                $(function () {
+                start();
+                }); 
+            </script>
         <div class="card">
             <h2>What is GardenPi</h2>
             <img src="images/gardenPi.jpg" alt="gardenPi" class="center">
